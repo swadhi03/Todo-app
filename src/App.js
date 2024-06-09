@@ -11,9 +11,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<AddTodo/>}/>
-        <Route path='search/' element={<SearchTodo/>}/>
-        <Route path='delete/' element={<DeleteTodo/>}/>
-        <Route path='view/' element={<ViewAll/>}/>
+        <Route path='/search' element={<SearchTodo/>}/>
+        <Route path='/delete' element={<DeleteTodo/>}/>
+        <Route path='/view' element={<ViewAll/>}/>
       </Routes>
     </BrowserRouter>
   );
